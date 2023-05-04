@@ -1,5 +1,6 @@
 {
-	"files.exclude": {
+	// Update search.exclude if you add a pattern to files.exclude
+	"remfiles.exclude": {
 		".*": true,
 		"*.json": true,
 		"CODEOWNERS": true,
@@ -9,6 +10,18 @@
 		"tsconfig.*": true,
 		"node_modules": true,
 		"*.code-workspace": true
+	},
+	// Make it possible to open excluded files with Ctrl + P
+	"search.exclude": {
+		".*": false,
+		"*.json": false,
+		"CODEOWNERS": false,
+		"dist": false,
+		"README.md": false,
+		"LICENSE": false,
+		"tsconfig.*": false,
+		"node_modules": false,
+		"*.code-workspace": false
 	},
 	"files.insertFinalNewline": true,
 	"editor.tabSize": 2,
@@ -30,9 +43,11 @@
 		"cryptly",
 		"flagly",
 		"gracely",
+		"isly",
 		"isoly",
 		"langly",
 		"paramly",
+		"paxportse",
 		"persistly",
 		"selectivly",
 		"servly",
@@ -40,6 +55,7 @@
 		"smoothly",
 		"tidily",
 		"transactly",
-		"uply"
+		"uply",
+		"utily"
 	]
 }

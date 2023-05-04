@@ -1,0 +1,13 @@
+{
+  "name": "@paxportse/airports-type",
+  "version": "0.1.0",
+  "description": "",
+	"main": "./dist/index.js",
+	"scripts": {
+		"build": "tsc --build"
+	},
+	"dependencies": {
+		"isly": "^0.1.4",
+		"isoly": "^2.0.17"
+	}
+}
