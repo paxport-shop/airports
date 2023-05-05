@@ -1,12 +1,12 @@
 {
-  "name": "@paxportse/airports-data",
-  "version": "0.1.0",
-  "description": "",
+	"name": "@paxportse/airports-data",
+	"version": "0.1.1",
+	"description": "",
 	"main": "./dist/index.js",
 	"scripts": {
 		"build": "tsc --build"
 	},
 	"dependencies": {
-		"@paxportse/airports-type": "*"
+		"@paxportse/airports-type": "^0.1.1"
 	}
 }

@@ -1,7 +1,7 @@
 {
-  "name": "@paxportse/airports-data-active",
-  "version": "0.1.0",
-  "description": "",
+	"name": "@paxportse/airports-data-active",
+	"version": "0.1.1",
+	"description": "",
 	"main": "./dist/index.js",
 	"scripts": {
 		"build": "tsc --build"
@@ -10,6 +10,6 @@
 		"ts-node": "^10.9.1"
 	},
 	"dependencies": {
-		"@paxportse/airports-type": "*"
+		"@paxportse/airports-type": "^0.1.1"
 	}
 }
