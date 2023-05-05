@@ -3,3 +3,4 @@ dist
 transpiled
 *.js
 packages/data/airports.ts
+packages/data-active/generated

@@ -1,5 +1,5 @@
 import { AirportData } from "@paxportse/airports-type/dist/AirportData"
-import { airports } from "./airports"
+import { airports } from "./generated/airports"
 
 export { Airport, IataCode, IcaoCode } from "@paxportse/airports-type"
 

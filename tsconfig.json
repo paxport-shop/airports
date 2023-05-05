@@ -19,6 +19,9 @@
 		},
 		{
 			"path": "./packages/data"
+		},
+		{
+			"path": "./packages/data-active"
 		}
 	]
 }
