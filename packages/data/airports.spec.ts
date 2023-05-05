@@ -1,6 +1,6 @@
 import { Airport, IataCode } from "@paxportse/airports-type"
 import { airports } from "./airports"
-import { AirportData } from "./index"
+import { airportData } from "./index"
 
 describe("Airports all", () => {
 	it("Check raw data", () => {
@@ -13,7 +13,7 @@ describe("Airports all", () => {
 		})
 	})
 	it("getFromIata", () => {
-		expect(AirportData.getFromIata("MMX")).toEqual({
+		expect(airportData.getFromIata("MMX")).toEqual({
 			iata: "MMX",
 			icao: "ESMS",
 			location: {
@@ -23,13 +23,13 @@ describe("Airports all", () => {
 			name: "Malmö Airport",
 			timeZone: "Europe/Stockholm",
 		})
-		expect(AirportData.getFromIata(undefined as any)).toBeUndefined()
-		expect(AirportData.getFromIata("mmx")).toBeUndefined()
-		expect(AirportData.getFromIata("ESMS")).toBeUndefined()
+		expect(airportData.getFromIata(undefined as any)).toBeUndefined()
+		expect(airportData.getFromIata("mmx")).toBeUndefined()
+		expect(airportData.getFromIata("ESMS")).toBeUndefined()
 	})
 
 	it("getFromIcao", () => {
-		expect(AirportData.getFromIcao("ESMS")).toEqual({
+		expect(airportData.getFromIcao("ESMS")).toEqual({
 			iata: "MMX",
 			icao: "ESMS",
 			location: {
@@ -40,8 +40,8 @@ describe("Airports all", () => {
 			timeZone: "Europe/Stockholm",
 		})
 
-		expect(AirportData.getFromIcao(undefined as any)).toBeUndefined()
-		expect(AirportData.getFromIcao("esms")).toBeUndefined()
-		expect(AirportData.getFromIcao("MMX")).toBeUndefined()
+		expect(airportData.getFromIcao(undefined as any)).toBeUndefined()
+		expect(airportData.getFromIcao("esms")).toBeUndefined()
+		expect(airportData.getFromIcao("MMX")).toBeUndefined()
 	})
 })
