@@ -15,19 +15,19 @@
 ## Packages
 
 * Contains typescript-type:
-`npm i @paxportse/airports-type`
+`npm i @paxport/airports-type`
 
 * Contains typescript-type and ALL airports. (500KB-1MB)
-`npm i @paxportse/airports-data`
+`npm i @paxport/airports-data`
 
 * Contains typescript-type and active airports. (~70KB)
-`npm i @paxportse/airports-data-active`
+`npm i @paxport/airports-data-active`
 
 ## Edit data
 
 Raw data for airports is in: `packages/data/airports.ts`
 
-Selected airports in `@paxportse/airports-data-active` is defined by `packages/data-active/active.txt`.
+Selected airports in `@paxport/airports-data-active` is defined by `packages/data-active/active.txt`.
 To add airports, just add IATA-code to the txt-file. (And make sure it exist in raw-data.)
 
 ## NPM-packages

@@ -7,7 +7,7 @@ if (!fs.existsSync("./generated")) {
 
 fs.writeFileSync(
 	"./generated/airports.ts",
-	`import { Airport, IataCode } from "@paxportse/airports-type"\n` +
+	`import { Airport, IataCode } from "@paxport/airports-type"\n` +
 		`export const airports:Record<IataCode,Airport>=${JSON.stringify(
 			Object.fromEntries(
 				fs

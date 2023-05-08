@@ -1,4 +1,4 @@
-import { Airport, IataCode } from "@paxportse/airports-type"
+import { Airport, IataCode } from "@paxport/airports-type"
 /* eslint-disable */
 export const airports: Record<IataCode, Airport> = {
 AAA:{iata: "AAA", icao: "NTGA", name: "Anaa Airport", location: {city: "Anaa", state: "Tuamotus", country: "PF"}, timeZone: "Pacific/Tahiti" },

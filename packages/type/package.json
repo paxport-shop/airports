@@ -1,5 +1,5 @@
 {
-	"name": "@paxportse/airports-type",
+	"name": "@paxport/airports-type",
 	"version": "0.1.1",
 	"description": "",
 	"main": "./dist/index.js",

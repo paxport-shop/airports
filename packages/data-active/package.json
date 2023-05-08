@@ -1,5 +1,5 @@
 {
-	"name": "@paxportse/airports-data-active",
+	"name": "@paxport/airports-data-active",
 	"version": "0.1.1",
 	"description": "",
 	"main": "./dist/index.js",
@@ -10,6 +10,6 @@
 		"ts-node": "^10.9.1"
 	},
 	"dependencies": {
-		"@paxportse/airports-type": "^0.1.1"
+		"@paxport/airports-type": "^0.1.1"
 	}
 }

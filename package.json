@@ -1,5 +1,5 @@
 {
-	"name": "@paxportse/airports",
+	"name": "@paxport/airports",
 	"version": "0.1.0",
 	"description": "Library for airports around containing IATA codes, airport name, city, country, currency and timezone.",
 	"author": "Paxport AB",

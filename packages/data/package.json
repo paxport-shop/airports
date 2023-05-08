@@ -1,5 +1,5 @@
 {
-	"name": "@paxportse/airports-data",
+	"name": "@paxport/airports-data",
 	"version": "0.1.1",
 	"description": "",
 	"main": "./dist/index.js",
@@ -7,6 +7,6 @@
 		"build": "tsc --build"
 	},
 	"dependencies": {
-		"@paxportse/airports-type": "^0.1.1"
+		"@paxport/airports-type": "^0.1.1"
 	}
 }
