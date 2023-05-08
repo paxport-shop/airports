@@ -21,6 +21,7 @@
 		"composite": true,
 	},
 	"exclude": [
-		"build.ts"
-	]
+		"build.ts",
+		"activeAirports.ts"
+	],
 }
