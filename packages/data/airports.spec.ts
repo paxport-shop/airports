@@ -1,4 +1,4 @@
-import { Airport, IataCode } from "@paxportse/airports-type"
+import { Airport, IataCode } from "@paxport/airports-type"
 import { airports } from "./airports"
 import { airportData } from "./index"
 
